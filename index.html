@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desi Mind Matters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="topbar">
+    <a href="#home" class="brand"><span>✦</span> Desi Mind Matters</a>
+    <button class="menuBtn" aria-label="Open navigation">☰</button>
+    <div class="navlinks">
+      <a href="#podcast">Podcast</a>
+      <a href="#myths">Myths vs Facts</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="heroBg"></div>
+    <div class="heroOverlay"></div>
+    <div class="heroContent reveal">
+      <p class="eyebrow">A school campaign for awareness, care, and change</p>
+      <h1>Desi Mind Matters</h1>
+      <p class="tagline">Breaking the silence around mental health in South Asian and immigrant communities.</p>
+      <div class="heroActions">
+        <a href="#podcast" class="btn primary">Listen to the podcast</a>
+        <a href="#myths" class="btn secondary">Explore the myths</a>
+      </div>
+    </div>
+    <div class="statCard reveal">
+      <span class="statNumber" data-target="85">0</span><span class="percent">%</span>
+      <p>South Asians in Canada are reported to be less likely to seek mental health treatment compared to the general population.</p>
+      <small>CAMH and Mental Health Commission of Canada, 2023</small>
+    </div>
+  </header>
+
+  <main>
+    <section class="mission section reveal">
+      <div>
+        <p class="eyebrow">Mission statement</p>
+        <h2>Silence has a cost. We cannot afford it anymore.</h2>
+      </div>
+      <p>Mental health is not talked about enough in many of our communities. Desi Mind Matters challenges the stigma surrounding mental health in South Asian and immigrant households. Through research, conversation, and local support, this campaign works to make seeking help feel less like shame and more like strength.</p>
+    </section>
+
+    <section class="quickLinks section reveal">
+      <a href="#podcast">🎙️ Listen to our podcast</a>
+      <a href="#resources">📚 Explore resources</a>
+      <a href="#myths">💭 Myths vs facts</a>
+      <a href="#about">👋 About this campaign</a>
+    </section>
+
+    <section class="visualStory section reveal">
+      <img src="assets/images/illustration.png" alt="Illustration representing South Asian identity and community" />
+      <div>
+        <p class="eyebrow">Why this matters</p>
+        <h2>For many families, everyday life can include pressure, expectations, and silence.</h2>
+        <p>School, work, money stress, migration, language barriers, family expectations, and fear of judgment can all affect mental health. When a community treats struggle as weakness, people may wait longer before asking for help. This website is meant to start conversations earlier.</p>
+      </div>
+    </section>
+
+    <section id="podcast" class="section podcast reveal">
+      <div class="sectionHeader">
+        <p class="eyebrow">Podcast</p>
+        <h2>Desi Mind Matters: The Podcast</h2>
+        <p>Three episodes. Real conversations. Real research.</p>
+      </div>
+      <div class="episodes">
+        <article class="episodeCard">
+          <span class="episodeNum">Episode 1</span>
+          <h3>What is Mental Health Stigma in Desi Communities?</h3>
+          <p>We explore what stigma really means, where it comes from, and why silence has become the default response to struggle in many South Asian households.</p>
+          <audio controls preload="metadata"><source src="assets/audio/episode1.mp3" type="audio/mpeg"></audio>
+        </article>
+        <article class="episodeCard">
+          <span class="episodeNum">Episode 2</span>
+          <h3>The Myths We Were Taught</h3>
+          <p>Breaking down the most common cultural myths about mental health, and what the research actually says.</p>
+          <audio controls preload="metadata"><source src="assets/audio/episode2.mp3" type="audio/mpeg"></audio>
+        </article>
+        <article class="episodeCard">
+          <span class="episodeNum">Episode 3</span>
+          <h3>You Are Not Alone, Finding Help in Halton</h3>
+          <p>Real, local, accessible resources for anyone ready to take the next step.</p>
+          <audio controls preload="metadata"><source src="assets/audio/episode3.mp3" type="audio/mpeg"></audio>
+        </article>
+      </div>
+    </section>
+
+    <section id="myths" class="section myths reveal">
+      <div class="sectionHeader">
+        <p class="eyebrow">Myths vs facts</p>
+        <h2>The Myths We Were Taught</h2>
+        <p>Common beliefs about mental health in our communities, and what the research actually shows. Tap a card to reveal the truth.</p>
+      </div>
+      <div class="mythGrid">
+        <button class="mythCard">
+          <span class="mythLabel">✕ Myth</span>
+          <h3>“Mental illness is a Western concept.”</h3>
+          <p class="hint">Tap to reveal the fact</p>
+          <div class="factPanel"><span>✓ Research shows</span><p>South Asians in Canada experience higher rates of anxiety and mood disorders than the general population, but far lower rates of treatment.</p></div>
+        </button>
+        <button class="mythCard">
+          <span class="mythLabel">✕ Myth</span>
+          <h3>“Just pray, stay strong, keep going.”</h3>
+          <p class="hint">Tap to reveal the fact</p>
+          <div class="factPanel"><span>✓ Research shows</span><p>Culturally adapted therapy has been shown to be more effective than standard treatment for South Asians experiencing anxiety and depression. Source: CAMH.</p></div>
+        </button>
+        <button class="mythCard">
+          <span class="mythLabel">✕ Myth</span>
+          <h3>“Seeking help brings shame to the family.”</h3>
+          <p class="hint">Tap to reveal the fact</p>
+          <div class="factPanel"><span>✓ Research shows</span><p>People in Canada already wait up to 143 days for mental health appointments. Shame should not add another barrier.</p></div>
+        </button>
+        <button class="mythCard">
+          <span class="mythLabel">✕ Myth</span>
+          <h3>“You have a good life, what do you have to be sad about?”</h3>
+          <p class="hint">Tap to reveal the fact</p>
+          <div class="factPanel"><span>✓ Research shows</span><p>Unemployment, language barriers, and migration stress disproportionately affect South Asian Canadians and contribute to anxiety and mood disorders.</p></div>
+        </button>
+      </div>
+    </section>
+
+    <section id="resources" class="section resources reveal">
+      <div class="sectionHeader">
+        <p class="eyebrow">Support</p>
+        <h2>You Are Not Alone</h2>
+        <p>Free, confidential, and local support for our community.</p>
+      </div>
+      <div class="crisisBox">
+        <h3>Need Help Right Now?</h3>
+        <p><strong>Call or text 988</strong>, Suicide Crisis Helpline, available 24/7 across Canada. You do not have to be in crisis to call. You just have to be struggling.</p>
+      </div>
+      <div class="resourceGrid">
+        <article><h3>Punjabi Community Health Services</h3><p>Free, confidential mental health case management for South Asian, newcomer, and Muslim individuals ages 16+ living in Halton Region.</p><a href="https://www.pchs4u.com" target="_blank" rel="noreferrer">Visit pchs4u.com</a></article>
+        <article><h3>South Asian Community Health Services</h3><p>Culturally and linguistically appropriate mental health and addiction counselling.</p><p class="contact">Phone: (647) 718-0786</p></article>
+        <article><h3>Halton Healthcare</h3><p>Child and Adolescent Mental Health Services offer assessment and short term treatment for children and youth experiencing mental health concerns.</p><a href="https://www.haltonhealthcare.on.ca" target="_blank" rel="noreferrer">Visit Halton Healthcare</a></article>
+      </div>
+    </section>
+
+    <section class="campaignAction section reveal">
+      <img src="assets/images/community.png" alt="Community speaker at a public event" />
+      <div>
+        <p class="eyebrow">Social justice action</p>
+        <h2>Start the conversation. Share the support.</h2>
+        <p>This campaign is designed to educate young people, challenge stigma, and connect community members to help. A website and podcast work together because one gives people information, while the other makes the issue feel human.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <div class="aboutCard">
+        <p class="eyebrow">About this campaign</p>
+        <h2>Made by Karan Gill</h2>
+        <blockquote>“Growing up, I have seen how the people around me carry heavy things in silence.”</blockquote>
+        <p>Desi Mind Matters is a school project made by Karan Gill. While it is a school project, it means a lot more than just a topic.</p>
+        <p>Growing up, I have seen how the people around me carry heavy things in silence. How “we do not talk about that” becomes the answer to things that desperately need to be talked about. How asking for help can feel like betrayal, even when it is actually survival.</p>
+        <p>This campaign exists because I believe our communities deserve better. Better conversations, better access, and better understanding. Mental health struggles are not a failure of character. They are human. They deserve care, not silence.</p>
+        <p>You reading this message and viewing this webpage already means a lot. Thank you for being here.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desi Mind Matters. A school awareness campaign for mental health, equity, and community care.</p>
+  </footer>
+  <button class="backTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
